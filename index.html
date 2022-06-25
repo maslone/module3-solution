@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>Module3 Solution</title>
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div classs="container-fluid">
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="index.html">
+                    <!--HEADING-->
+                        <h1 href="#">Food, LLC</h1>
+                        </a>
+                    </div>
+                <!--NAVIGATION BUTTON/TOGGLE BAR-->
+                    <button type="button" class="navbar-toggle visible-xs" data-toggle="collapse" data-target="#collapsable-nav"  aria-expanded="true" aria-label="Toggle navigation">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+            <!--TOGGLE BAR TITLES (SET UP FOR 'JUMP TO')-->
+                <div id="collapsable-nav" class="navbar-collapse collapse" aria-expanded="true">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
+                        <li>
+                            <a href="#chicken-section">
+                                <br class="hidden-xs">
+                                Chicken
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#beef-section">
+                                <br class="hidden-xs">
+                                Beef
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#pork-section">
+                                <br class="hidden-xs">
+                                Pork
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <div id="main-content" class="container">
+            <h2 id="menu-heading" class="text-center">Our Menu</h2>
+            <div id="sections" class="row">
+                <section class="col-md-4 col-sm-6 col-xs-12 food-section">
+                    <div id="chicken-section">
+                        
+                            <h3 class="text-center">Chicken</h3>
+                            <p>Text about chicken.</p>
+                            <a href="#menu-heading">Back to Top</a>
+                        
+                    </div>
+                </section>
+                <section class="col-md-4 col-sm-6 col-xs-12 food-section">
+                    <div id="beef-section">
+                    
+                            <h3 class="text-center">Beef</h3>
+                            <p>Text about beef.</p>
+                            <a href="#menu-heading">Back to Top</a>
+                        
+                    </div>
+                </section>
+                <section class="col-md-4 col-sm-6 col-xs-12 food-section">
+                    <div id="pork-section">
+                        
+                            <h3 class="text-center">Pork</h3>
+                            <p>Text about pork.</p>
+                            <a href="#menu-heading">Back to Top</a>
+                        
+                    </div>
+                </section>
+            </div>
+        </div>
+<div class="clearfix visible-lg-block"></div>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+/* styles */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    width: 100%;
+}
+
+#header-nav {
+    border: none;
+    background-color: lightblue;
+    height: 70px;
+    box-shadow: 0 0 6px 0 black;
+}
+
+h1 {
+    color: black;
+    padding-top: 0;
+    margin-top: 0;
+    font-family: serif;
+    font-size: 2.3em;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+}
+
+#nav-list {
+    background-color: black; 
+}
+
+#nav-list a {
+    /*text-align: center;*/
+    font-weight: bolder;
+    color: white;
+    font-size: 1.2em;
+}
+
+.food-section {
+    height: 700px;
+    margin-bottom:20px;
+}
+
+#main-content {
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#chicken-section, #beef-section, #pork-section {
+    width: 100%;
+    padding: 20px;
+    background-color: lightblue;
+    margin-bottom: 60px;
+    box-shadow: 0 0 6px 0 black;
+    height: 700px;
+}
+
+@media (min-width: 992px) {
+    .col-md-4 {
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 767px) {
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-6:last-child {
+        width: 100%;
+    }
+}
+
+@media (max-width: 766px) {
+    .col-xs-12 {
+        width: 100%;
+    }
+}
